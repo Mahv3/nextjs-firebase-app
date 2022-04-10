@@ -20,6 +20,7 @@ if(typeof window !== 'undefined' && getApps().length ===0){
         appId: "1:1047854742243:web:038af35ec95fa077a463d6",
         measurementId: "G-N9G2RJX091"
     };
+
     // Initialize Firebase
     initializeApp(firebaseConfig);
     getAnalytics();
