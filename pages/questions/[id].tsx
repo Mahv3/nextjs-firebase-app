@@ -80,7 +80,7 @@ export default function QuestionsShow(){
             return
         }
         loadData()
-    }, [query.id, user])
+    }, [routerQuery.id, user])
 
     async function onSubmit(e: FormEvent<HTMLFormElement>){
         e.preventDefault()
