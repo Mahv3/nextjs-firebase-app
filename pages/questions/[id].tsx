@@ -82,7 +82,7 @@ export default function QuestionsShow(){
         loadData()
     }, [routerQuery.id, user])
 
-    async function onSubmit(e: FormEvent<HTMLFormElement>){
+    async function onSubmit(e){
         e.preventDefault()
         setIsSending(true)
 
